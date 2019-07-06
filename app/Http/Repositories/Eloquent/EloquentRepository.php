@@ -32,9 +32,7 @@ namespace App\Http\Repositories\Eloquent;
     }
     public function update($data)
     {
-        $data->update();
        return $data->save();
-
     }
     public function destroy($object)
     {
